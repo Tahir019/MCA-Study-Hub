@@ -1,0 +1,28 @@
+title: "MCA Study Hub"
+description: "Your go-to platform for MCA notes, coding tutorials & career guidance"
+author: "Tahir Ahmad"
+theme: jekyll-theme-cayman  # A modern, attractive theme
+baseurl: "" 
+url: "https://tahir019.github.io/MCA-Study-Hub"
+show_downloads: false  # Hide unnecessary download button
+google_analytics: UA-XXXXXXXXX-X  # (Optional) Add your Google Analytics ID
+twitter_username: tahirahmad  # (Optional) Add your Twitter handle
+github_username: tahir019  # (Optional) Add your GitHub username
+
+# Enable SEO & Sitemap
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Blog settings
+permalink: /:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+# Navigation Links
+navbar-links:
+  Home: "/"
+  Blog: "/blog/"
+  About: "/about/"
+  Contact: "/contact/"
